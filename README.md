@@ -63,7 +63,8 @@ This model is inspired by the DeepSeek-R1 paper, utilizing the Llama-3 architect
     ]
 
 
-   Training
+
+Training
 Training Command:
 You can start training by using the following command and modify the parameters using argparse in train.py:
 python train.py --num_gpus [number of gpus]  --batch_size [batch size] --learning_rate [learning rate] --epochs [number of epochs] --dim [model dimension] --n_layers [number of layers] --n_heads [number of heads] --vocab_size [vocabulary size] --max_seq_len [max sequence length]
@@ -170,11 +171,14 @@ output = model.generate_with_cot(input_ids, max_length=200)
 output = model.generate_with_improvement(input_ids, max_length=200)
 
 License
+
 This project is released under the MIT License.
 
 Contributing
+
 Contributions are welcome! Please feel free to submit bug reports, improvement suggestions, and pull requests.
 
 Contact
 For any questions, suggestions, or feedback, please contact us through this repository.
+
 berketezgocen97@hotmail.com
