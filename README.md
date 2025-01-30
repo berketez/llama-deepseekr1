@@ -59,7 +59,7 @@ This model is inspired by the DeepSeek-R1 paper, utilizing the Llama-3 architect
        "target": "Target output (optional)",
        "language": "Input language (optional)"
      },
-     ...
+     
     ]
 
 
@@ -166,7 +166,4 @@ For any questions, suggestions, or feedback, please contact us through this repo
 
 berketezgocen97@hotmail.com
 
-Contact
-For any questions, suggestions, or feedback, please contact us through this repository.
 
-berketezgocen97@hotmail.com
